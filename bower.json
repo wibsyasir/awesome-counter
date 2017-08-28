@@ -1,0 +1,26 @@
+{
+  "name": "awesome-counter",
+  "description": "awesome counter component for polymer 2.0",
+  "main": "awesome-counter.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0",
+	"iron-icon": "PolymerElements/iron-icon#V2.0.0",
+	"iron-icons": "PolymerElements/iron-icons#V2.0.0"
+  },
+  "authors": [
+    "Yasir Pasha <yasir.pasha@hotmail.com>"
+  ],
+  "keywords": [
+    "web-components"
+  ],
+  "devDependencies": {
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
+    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
+	"iron-icon": "PolymerElements/iron-icon#v2.0.0",
+	"iron-icons": "PolymerElements/iron-icons#v2.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+  },
+  "resolutions": {
+    "polymer": "^2.0.0"
+  }
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>awesome-counter demo</title>
+	
+<!--
+<script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+-->
+
+
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+    <link rel="import" href="../awesome-counter.html">
+
+    <custom-style>
+      <style is="custom-style" include="demo-pages-shared-styles">
+      </style>
+    </custom-style>
+  </head>
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Basic awesome-counter demo</h3>
+      <demo-snippet>
+        <template>
+		  <awesome-counter class="green" icon="settings" label="CPU TRAFFIC" count="57%"></awesome-counter>
+ 			<awesome-counter class="blue" icon="shopping-cart" label="Sales" count="792"></awesome-counter>
+ 			<awesome-counter class="yellow" icon="face" label="Members" count="120+"></awesome-counter>
+ 			<awesome-counter class="red" icon="thumb-up" label="Facebook Likes" count="12,436"></awesome-counter>
+        </template>
+      </demo-snippet>
+    </div>
+  </body>
+</html>
